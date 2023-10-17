@@ -1,6 +1,6 @@
 # Hello there! 👋
 
-I'm [YourName], a passionate .NET Core developer with a flair for crafting efficient, scalable, and maintainable applications. With a foundation in the rich ecosystem of .NET, I've been able to dive deep into web, desktop, and cloud solutions, consistently delivering quality software to meet business needs.
+I'm Yaşar, a passionate .NET Core developer with a flair for crafting efficient, scalable, and maintainable applications. With a foundation in the rich ecosystem of .NET, I've been able to dive deep into web, desktop, and cloud solutions, consistently delivering quality software to meet business needs.
 
 ## 🛠 Tech Stack
 
@@ -18,9 +18,7 @@ I'm [YourName], a passionate .NET Core developer with a flair for crafting effic
 
 ## 🤝 Let's Connect!
 
-- LinkedIn: [your-linkedin-profile-link]
-- Twitter: [@yourTwitterHandle]
-- Blog: [your-blog-link-if-any]
+- LinkedIn: [[your-linkedin-profile-link]](https://www.linkedin.com/in/yasararaz/)
 
 > "Code is like humor. When you have to explain it, it’s bad." - Cory House
 
