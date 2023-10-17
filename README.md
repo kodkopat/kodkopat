@@ -4,10 +4,10 @@ I'm Yaşar, a passionate .NET Core developer with a flair for crafting efficient
 
 ## 🛠 Tech Stack
 
-- **Languages**: C#, SQL, JavaScript (basic)
-- **Frameworks/Libraries**: .NET Core, ASP.NET Core, Entity Framework Core
+- **Languages**: C#, SQL, JavaScript
+- **Frameworks/Libraries**: .NET Core, ASP.NET Core, Entity Framework Core, MVC, Angular
 - **Database**: SQL Server, PostgreSQL
-- **Tools**: Visual Studio, Azure DevOps, Git
+- **Tools**: Visual Studio, Azure DevOps, Git, Rider, DataGrip
 - **Cloud**: Azure (App Services, Azure SQL, Azure Functions)
 
 ## 🌱 Current Learning Goals
@@ -18,7 +18,7 @@ I'm Yaşar, a passionate .NET Core developer with a flair for crafting efficient
 
 ## 🤝 Let's Connect!
 
-- LinkedIn: [[your-linkedin-profile-link]](https://www.linkedin.com/in/yasararaz/)
+- LinkedIn: [Yaşar ARAZ](https://www.linkedin.com/in/yasararaz/)
 
 > "Code is like humor. When you have to explain it, it’s bad." - Cory House
 
