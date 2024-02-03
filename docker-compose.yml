@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 services:
   postgres:
     image: postgres:latest
@@ -11,6 +11,8 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    networks:
+      - app-network
 
   redis:
     image: redis:latest
@@ -19,6 +21,8 @@ services:
       - "6379:6379"
     volumes:
       - redis_data:/data
+    networks:
+      - app-network
 
   rabbitmq:
     image: rabbitmq:management
@@ -31,20 +35,28 @@ services:
       RABBITMQ_DEFAULT_PASS: user
     volumes:
       - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - app-network
 
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
     container_name: sqlserver
     environment:
       ACCEPT_EULA: Y
-      MSSQL_SA_PASSWORD: <YourNewStrong@Passw0rd>
+      MSSQL_SA_PASSWORD: <YourNewStrong@Passw0rd> # Ensure you replace <YourNewStrong@Passw0rd> with your actual password
     ports:
       - "1433:1433"
     volumes:
       - sqlserver_data:/var/opt/mssql
+    networks:
+      - app-network
 
 volumes:
   postgres_data:
   redis_data:
   rabbitmq_data:
   sqlserver_data:
+
+networks:
+  app-network:
+    driver: bridge
