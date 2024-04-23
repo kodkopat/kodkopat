@@ -51,28 +51,28 @@ services:
     networks:
       - app-network
 
-  elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.2
-    container_name: elasticsearch
-    environment:
-      discovery.type: single-node
-      ES_JAVA_OPTS: "-Xms512m -Xmx512m"
-    ports:
-      - "9200:9200"
-    volumes:
-      - elasticsearch_data:/usr/share/elasticsearch/data
-    networks:
-      - app-network
+  # elasticsearch:
+  #   image: docker.elastic.co/elasticsearch/elasticsearch:8.13.2
+  #   container_name: elasticsearch
+  #   environment:
+  #     discovery.type: single-node
+  #     ES_JAVA_OPTS: "-Xms512m -Xmx512m"
+  #   ports:
+  #     - "9200:9200"
+  #   volumes:
+  #     - elasticsearch_data:/usr/share/elasticsearch/data
+  #   networks:
+  #     - app-network
 
-  kibana:
-    image: docker.elastic.co/kibana/kibana:8.13.2
-    container_name: kibana
-    ports:
-      - "5601:5601"
-    volumes:
-      - kibana_data:/usr/share/kibana/config
-    networks:
-      - app-network
+  # kibana:
+  #   image: docker.elastic.co/kibana/kibana:8.13.2
+  #   container_name: kibana
+  #   ports:
+  #     - "5601:5601"
+  #   volumes:
+  #     - kibana_data:/usr/share/kibana/config
+  #   networks:
+  #     - app-network
 
   mongodb:
     image: mongo:latest
@@ -89,8 +89,8 @@ volumes:
   redis_data:
   rabbitmq_data:
   sqlserver_data:
-  elasticsearch_data:
-  kibana_data:
+  # elasticsearch_data:
+  # kibana_data:
   mongodb_data:
 
 networks:
