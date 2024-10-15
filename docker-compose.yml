@@ -88,10 +88,11 @@ volumes:
   postgres_data:
   redis_data:
   rabbitmq_data:
-  sqlserver_data:
-  # elasticsearch_data:
+  sqlserver_data: # elasticsearch_data:
+
   # kibana_data:
   mongodb_data:
+
 
 networks:
   app-network:
